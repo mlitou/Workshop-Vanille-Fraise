@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(200, 244, 255);  
+    overflow: hidden; 
+    
+}
+
+.fullscreen{
+    font-family: 'Nunito 2', bold, sans-serif;
+    font-size: 1.2rem;
+    height:100vh;
+    width:100%;
+    align-items: center;
+    
+
+}
+
+.text{
+    color: #22BDD6;
+    text-shadow: #03505C 2px 2px;
+    font-family: 'arial', sans-serif;
+    font-size: 1.2rem; 
+    margin:20%; 
+    text-align: center;
+}
+
+#loginContainer{
+    background-color: rgb(200, 244, 255);
+    background-image: url(background);
+    background-size: cover;
+    z-index: 10;
+}
+
+#controlsContainer{
+    background-color:rgb(200, 244, 255);
+    z-index: 4;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+
+    
+}
+
+.center {
+    color: #22BDD6;
+    text-shadow: #03505C 2px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10%;
+    position: relative;
+    z-index: 10;
+}
+
+input {
+    outline-color: #3AB6C9;
+    stroke-width: 20% ;
+    border-radius: 30rem;
+    padding: 0.3rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.play {
+    text-decoration: none;
+    border: #40D0E7 1px;
+    color: white;
+    background-color: #40D0E7;
+    stroke-width: 20%;
+    border-radius: 30rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.4rem;
+}
+
